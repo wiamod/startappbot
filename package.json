@@ -3,5 +3,14 @@
     "dotenv": "^17.2.4",
     "express": "^5.2.1",
     "node-telegram-bot-api": "^0.67.0"
+  },
+
+
+  "name": "startappbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
   }
+ 
 }
