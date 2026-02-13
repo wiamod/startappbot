@@ -76,7 +76,7 @@ bot.on('message', (msg) => {
   }
   else if (text === '📞 Aloqa') {
     bot.sendMessage(msg.chat.id,
-      "📞 Admin: @Mirkomilallayorov01");
+      "📞 Admin: @Mirkomilallayorov00");
   }
 });
 
