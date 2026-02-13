@@ -31,7 +31,8 @@ const menu = {
   reply_markup: {
     keyboard: [
       ['📚 Darslar', '❓ Savollar'],
-      ['💰 Premium', '📞 Aloqa']
+      ['💰 Premium', '📞 Aloqa'],
+      ['💬 telegram kanal!']
     ],
     resize_keyboard: true
   }
@@ -70,14 +71,15 @@ bot.on('message', (msg) => {
       "💎 Premium tez orada qo‘shiladi!\nPullik darslar + maxsus funksiyalar bo‘ladi.");
   }
   
-  else if (text === '💬 telegram kanal!') {
-    bot.sendMessage(msg.chat.id,
-      "https://t.me/+Qe8iDvDj8w01ZDky");
-  }
   else if (text === '📞 Aloqa') {
     bot.sendMessage(msg.chat.id,
-      "📞 Admin: @Mirkomilallayorov00");
+      "📞 Admin: @Mirkomilallayorov01");
   }
+  else if (text === '💬 telegram kanal!') {
+    bot.sendMessage(msg.chat.id,
+      " https://t.me/+Qe8iDvDj8w01ZDky");
+  }
+  
 });
 
 
