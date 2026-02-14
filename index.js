@@ -6,7 +6,7 @@ const fs = require("fs");
 const TOKEN = process.env.TOKEN;
 if (!TOKEN) throw new Error("TOKEN topilmadi. Railway Variables ga TOKEN qo‘ying.");
 
-const OWNER_ID = Number(process.env.OWNER_ID || 7547097467); // /myid bilan olasan
+const OWNER_ID = Number(process.env.OWNER_ID || 7547097467,7252568159); // /myid bilan olasan
 const CHANNEL_LINK = process.env.CHANNEL_LINK || "https://t.me/your_channel";
 const ADMIN_CONTACT = "@Mirkomilallayorov01";
 const PRICES_TEXT =
@@ -107,6 +107,9 @@ const QUIZ = [
   { q: "2 + 2 = ?", options: ["3", "4", "5"], a: "4" },
   { q: "O‘zbekiston poytaxti?", options: ["Toshkent", "Samarqand", "Buxoro"], a: "Toshkent" },
   { q: "Node.js nima?", options: ["Runtime", "Brauzer", "O‘yin"], a: "Runtime" },
+  { q: "Amir Temurning nechi mingta askari bolgan ?", options: ["200 000", "400 000", "250 000"], a: "400 000" },
+  { q: "Sirdaryo viloyatining paytaxti ?", options: ["Guliston", "qirq qiz", "Qarapchi"], a: "Guliston" },
+  { q: "Bolalarda nechta suyaklar mavjud?", options: ["265", "306", "288"], a: "306" },
 ];
 
 const quizState = {}; // userId -> { index, score, active }
